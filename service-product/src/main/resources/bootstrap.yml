@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    defer-datasource-initialization: true
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:3333
+      username: root
+      password: s3cr3t
+  bootstrap:
+    enabled: true
